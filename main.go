@@ -6,7 +6,11 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+var (
+	ExportVariable = "main"
+)
+
 func main() {
-	logrus.Info("hello")
+	logrus.Info("main")
 	fmt.Println("vim-go")
 }
